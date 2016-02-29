@@ -37,7 +37,6 @@ namespace OutOfProcessPluginHost
             services.AddInstance(serializer);
             var sp = services.BuildServiceProvider();
 
-            var pluginsObjs = new List<PluginContainer>();
             // Discover all plugin types
             foreach (var pd in plugins)
             {
@@ -47,7 +46,6 @@ namespace OutOfProcessPluginHost
                     .ToDictionary(d => Path.GetFileNameWithoutExtension(d));
 
                 var plugin = new PluginContainer(pluginHost, pd, sp);
-                pluginsObjs.Add(plugin);
                 plugin.Initialize(pluginDependencies);
 
                 var data = plugin.TransformData(new PluginData
