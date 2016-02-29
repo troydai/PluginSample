@@ -7,8 +7,8 @@
     <ProjectGuid>{8BF0D0E2-DD8B-4E7D-A789-3B30B8C6253D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DomainPluginHost</RootNamespace>
-    <AssemblyName>DomainPluginHost</AssemblyName>
+    <RootNamespace>AppDomainPluginContainer</RootNamespace>
+    <AssemblyName>AppDomainPluginContainer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

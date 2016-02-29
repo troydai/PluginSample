@@ -26,7 +26,7 @@ namespace OutOfProcessPluginHost
         {
             var sourcesDirectory = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", ".."));
             var configuration = "Debug";
-            var pluginHost = Path.Combine(sourcesDirectory, "PluginHost", "bin", configuration, "PluginHost.exe");
+            var pluginHost = Path.Combine(sourcesDirectory, "OutOfProcessPluginContainer", "bin", configuration, "OutOfProcessPluginContainer.exe");
             var plugins = ReadPluginManifest(sourcesDirectory);
 
             var serializer = new JsonSerializer();
@@ -54,6 +54,8 @@ namespace OutOfProcessPluginHost
                 });
 
                 Console.WriteLine(data.Message);
+
+                plugin.Stop();
             }
         }
 

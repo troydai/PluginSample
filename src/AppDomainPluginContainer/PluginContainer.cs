@@ -6,7 +6,7 @@ using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using Plugin.Abstractions;
 
-namespace DomainPluginHost
+namespace AppDomainPluginContainer
 {
     public class PluginContainer : MarshalByRefObject, IPlugin
     {

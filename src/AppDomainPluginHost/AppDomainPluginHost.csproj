@@ -121,7 +121,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DomainPluginHost\AppDomainPluginContainer.csproj">
+    <ProjectReference Include="..\AppDomainPluginContainer\AppDomainPluginContainer.csproj">
       <Project>{8bf0d0e2-dd8b-4e7d-a789-3b30b8c6253d}</Project>
       <Name>AppDomainPluginContainer</Name>
     </ProjectReference>

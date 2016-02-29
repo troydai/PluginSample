@@ -7,8 +7,8 @@
     <ProjectGuid>{B06FAA13-77EE-41DB-877A-0193666E2F3B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PluginHost</RootNamespace>
-    <AssemblyName>PluginHost</AssemblyName>
+    <RootNamespace>OutOfProcessPluginContainer</RootNamespace>
+    <AssemblyName>OutOfProcessPluginContainer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Plugin.Abstractions;
 
-namespace DomainPluginHost
+namespace AppDomainPluginContainer
 {
 
     /// <summary>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using DomainPluginHost;
+using AppDomainPluginContainer;
 using Microsoft.DotNet.ProjectModel;
 using NuGet.Frameworks;
 using Plugin.Abstractions;
@@ -27,7 +27,7 @@ namespace AppDomainPluginHost
                 // We're going to load the plugin host, so setup the base directory so we can load it
                 var setup = new AppDomainSetup
                 {
-                    ApplicationBase = Path.Combine(sourcesBaseDirectory, "DomainPluginHost", "bin", configuration)
+                    ApplicationBase = Path.Combine(sourcesBaseDirectory, "AppDomainPluginContainer", "bin", configuration)
                 };
 
                 // The plugin host needs to be able to load any dependency from the host

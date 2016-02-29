@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainPluginHost", "src\
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Plugin2", "src\Plugin2\Plugin2.xproj", "{11E1BF38-523E-4FFF-91C9-911B49DB9648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutOfProcessPluginContainer", "src\PluginHost\OutOfProcessPluginContainer.csproj", "{B06FAA13-77EE-41DB-877A-0193666E2F3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutOfProcessPluginContainer", "src\OutOfProcessPluginContainer\OutOfProcessPluginContainer.csproj", "{B06FAA13-77EE-41DB-877A-0193666E2F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainPluginContainer", "src\DomainPluginHost\AppDomainPluginContainer.csproj", "{8BF0D0E2-DD8B-4E7D-A789-3B30B8C6253D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomainPluginContainer", "src\AppDomainPluginContainer\AppDomainPluginContainer.csproj", "{8BF0D0E2-DD8B-4E7D-A789-3B30B8C6253D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutOfProcessPluginHost", "src\OutOfProcessPluginHost2\OutOfProcessPluginHost.csproj", "{1A1310D0-75D3-41E5-B8C8-0F5014BE95D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutOfProcessPluginHost", "src\OutOfProcessPluginHost\OutOfProcessPluginHost.csproj", "{1A1310D0-75D3-41E5-B8C8-0F5014BE95D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
